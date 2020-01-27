@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29521.150
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanWaterHealthService", "CleanWaterHealthService.csproj", "{1ED3E0E0-63C7-4065-9FBC-52467B9ABB41}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanWaterHealthService", "CleanWaterHealthService\CleanWaterHealthService.csproj", "{722056DD-C79B-4B39-B9CF-DBC5FDE02FD6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1ED3E0E0-63C7-4065-9FBC-52467B9ABB41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1ED3E0E0-63C7-4065-9FBC-52467B9ABB41}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1ED3E0E0-63C7-4065-9FBC-52467B9ABB41}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1ED3E0E0-63C7-4065-9FBC-52467B9ABB41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{722056DD-C79B-4B39-B9CF-DBC5FDE02FD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{722056DD-C79B-4B39-B9CF-DBC5FDE02FD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{722056DD-C79B-4B39-B9CF-DBC5FDE02FD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{722056DD-C79B-4B39-B9CF-DBC5FDE02FD6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {2BCE8134-8B79-4650-A2E9-C6DB310D76EC}
+		SolutionGuid = {C57F8684-EB65-4C97-882F-F37B024ADD36}
 	EndGlobalSection
 EndGlobal
