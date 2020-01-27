@@ -22,7 +22,7 @@ env:
   GITHUB_SHA: ${{ github.sha }}
   GKE_ZONE: australia-southeast1-a
   GKE_CLUSTER: your-first-cluster-1
-  IMAGE: pool-1
+  IMAGE: clean-water-health
 
 jobs:
   setup-build-publish-deploy:
