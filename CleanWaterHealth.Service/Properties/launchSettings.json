@@ -4,8 +4,8 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:1786",
-      "sslPort": 44300
+      "applicationUrl": "http://localhost:6247",
+      "sslPort": 44312
     }
   },
   "profiles": {
@@ -17,7 +17,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "CleanWaterHealthService": {
+    "CleanWaterHealth.Service": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "weatherforecast",

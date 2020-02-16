@@ -3,7 +3,7 @@ WORKDIR /source
 
 # copy csproj and restore as distinct layers
 COPY *.sln .
-COPY CleanWaterHealthService/*.csproj ./CleanWaterHealthService/
+COPY CleanWaterHealth.Service/*.csproj ./CleanWaterHealth.Service/
 RUN dotnet restore
 
 # copy and publish app and libraries
@@ -14,4 +14,4 @@ RUN dotnet publish -c release -o /app --no-restore
 FROM mcr.microsoft.com/dotnet/core/aspnet:3.1
 WORKDIR /app
 COPY --from=build /app .
-ENTRYPOINT ["dotnet", "CleanWaterHealthService.dll"]
+ENTRYPOINT ["dotnet", "CleanWaterHealth.Service.dll"]

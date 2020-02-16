@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
-namespace CleanWaterHealthService.Controllers
+namespace CleanWaterHealth.Service.Controllers
 {
     [ApiController]
     [Route("[controller]")]
